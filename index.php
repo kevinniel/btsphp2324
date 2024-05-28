@@ -41,6 +41,14 @@
     $stmt->execute();
     $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+
+    if(
+        isset($_GET["password"]) &&
+        !is_null($_GET["password"]) &&
+        !isset($_GET["password"])
+    )
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

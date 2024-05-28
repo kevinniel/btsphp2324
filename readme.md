@@ -24,5 +24,10 @@ Faire un formulaire d'inscription à une newsletter. On doit retrouver :
 
 ## Partie 2
 
-- Ajouter un bouton en JS qui permette de copier dans le presse papier toutes les adresses mail de la forme : "addr1 addr2 addr3 etc..." (un espace entre chaque adresse mail)
-- Pouvoir "désactiver" les adresses mails à partir de la BDD. Les adresses désactivées ne sont pas copier dans le presse papier à partir du bouton 1.
+- Ajouter un bouton en JS qui permette de copier dans le presse papier toutes les adresses mail de la forme : "addr1 addr2 addr3 etc..." (un espace entre chaque adresse mail).
+- Pouvoir "désactiver" les adresses mails à partir de la BDD. Les adresses désactivées ne sont pas copier dans le presse papier à partir du bouton 1. Pour la partie copier/colle, vous pouvez vous servir des "data-attributes" du HTML, avec notamment la propriété "dataset".
+
+## Partie 3
+
+- Permettre aux gens de se désinscrire en créant une page "unsubscribe.php". Mettre un formulaire leur permettant de saisir l'adresse mail pour laquelle ils doivent se désinscrire.
+- Refactorez votre code. Regrouper l'ensemble des informations de connexion à la base de données dans un seul fichier. Extrayez le traitement des informations dans des fichiers PHP spécifiques.
