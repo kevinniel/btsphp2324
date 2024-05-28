@@ -1,12 +1,14 @@
 # TP
 
+## Partie 1
+
 Faire un formulaire d'inscription à une newsletter. On doit retrouver : 
 
 - 1 page permettant de s'inscrire (mail obligatoire + nom (optionnel) + prenom (optionnel))
 - 1 page permettant d'afficher la totalité des inscrits. Cette page ne doit afficher le contenu QUE avec un système de protection par mot de passe (géré en GET via l'URL)
 
 
-## Étapes
+### Étapes
 
 1. Créer la page "index.php" avec le formulaire de récupération des emails
 2. Créez votre BDD pour le projet
@@ -18,3 +20,9 @@ Faire un formulaire d'inscription à une newsletter. On doit retrouver :
 8. Gérez la connexion BDD sur la page admin.php
 9. Récupérez les contenus depuis la BDD sur les inscrits à la newsletter
 10. Afficher les résultats dans un tableau
+
+
+## Partie 2
+
+- Ajouter un bouton en JS qui permette de copier dans le presse papier toutes les adresses mail de la forme : "addr1 addr2 addr3 etc..." (un espace entre chaque adresse mail)
+- Pouvoir "désactiver" les adresses mails à partir de la BDD. Les adresses désactivées ne sont pas copier dans le presse papier à partir du bouton 1.
